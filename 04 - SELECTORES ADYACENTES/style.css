@@ -1,0 +1,16 @@
+header h2,
+h3{
+    color: green;
+}
+
+#textoPrueba{
+    color: blue;
+}
+
+.prueba{
+    color: red;
+}
+
+p+p{
+    font-weight: bolder;
+}
