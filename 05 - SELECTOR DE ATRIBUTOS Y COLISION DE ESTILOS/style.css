@@ -22,3 +22,11 @@ div > p {
 p ~ p {
     font-weight: bolder;
 }
+/* 
+h2[title] {
+    color: green;
+} */
+
+h2[title="main"] {
+    color: blue;
+}
