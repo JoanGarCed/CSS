@@ -14,19 +14,27 @@ h3{
 p+p{
     font-weight: bolder;
 } */
-
+/* 
 div > p {
     color: red;
 }
 
 p ~ p {
     font-weight: bolder;
-}
+} */
 /* 
 h2[title] {
     color: green;
 } */
 
-h2[title="main"] {
+/* h2[title="main"] {
     color: blue;
+} */
+
+h2[title~="otro"] {
+    color: red;
+}
+
+h4[class|="es"] {
+    color: pink;
 }
