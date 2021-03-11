@@ -5,6 +5,14 @@ div{
     margin: 20px;
 }
 
+.hsla{
+    background-color: hsla(240, 20%, 50%, 0.2);
+}
+
+.rgba{
+    background-color: rgba(127, 51, 191, 0.5);
+}
+
 .reservadas{
     background-color: tomato;
 }
