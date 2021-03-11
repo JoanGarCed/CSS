@@ -1,0 +1,9 @@
+p{
+    position: relative;
+}
+
+p::before{
+    content: "-";
+    position: relative;
+    top: 50px;
+}
