@@ -1,0 +1,20 @@
+a#link1:link{
+    color: red;
+}
+
+a#link1:visited{
+    color: green;
+}
+
+p:hover{
+    color: green;
+}
+
+span:active{
+    color:blue;
+}
+
+input:focus{
+    border-radius: 20px;
+    background-color: yellow;
+};
