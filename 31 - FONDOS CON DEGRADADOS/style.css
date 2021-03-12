@@ -1,0 +1,24 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: 50px;
+}
+
+.degradados{
+    /* background: -webkit-linear-gradient(
+        left,
+        blue 0%,
+        red 30%,
+        green 80%,
+        yellow 100%
+    ); */
+
+    background: -webkit-radial-gradient(
+        center,
+        blue 0%,
+        red 30%,
+        green 80%,
+        yellow 100%
+    );
+}
