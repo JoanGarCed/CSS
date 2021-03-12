@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'irlandesa';
+    src:url("./fonts/MeathFLF.ttf");
+}
+
+p{
+    font-family: 'irlandesa','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
