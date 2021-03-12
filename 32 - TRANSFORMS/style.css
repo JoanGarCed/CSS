@@ -1,24 +1,23 @@
 div{
     height: 200px;
     width: 200px;
-    border: 2px solid red;
+    background-color: orange;
+    border: 2px solid black;
     margin: 50px;
+    /* transform: rotate(45deg);
+    transform-origin: top left; */
+    /* transform: skew(20deg); */
+    transform: translate(50px);
 }
 
-.degradados{
-    /* background: -webkit-linear-gradient(
-        left,
-        blue 0%,
-        red 30%,
-        green 80%,
-        yellow 100%
-    ); */
+/*
+    transform: tipo(cantidad)
+    transform: tipoX(cantidad)
+    transform: tipoY(cantidad)
+    transform: tipo(cantidadX, cantidadY);
 
-    background: -webkit-radial-gradient(
-        center,
-        blue 0%,
-        red 30%,
-        green 80%,
-        yellow 100%
-    );
-}
+    rotate
+    skew
+    translate
+    scale
+*/
