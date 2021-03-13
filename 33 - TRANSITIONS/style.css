@@ -1,0 +1,32 @@
+.container{
+    border: 1px solid white;
+}
+
+div.aux{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border: 2px solid black;
+    margin: 50px;
+    /* transform: rotate(45deg);
+    transform-origin: top left; */
+    /* transform: skew(20deg); */
+    transition: transform 3s 3s linear;
+}
+
+div.aux:hover{
+    transform: rotate(90deg);
+    background-color: green;
+    transition: transform 1s linear;
+}
+/*
+    transform: tipo(cantidad)
+    transform: tipoX(cantidad)
+    transform: tipoY(cantidad)
+    transform: tipo(cantidadX, cantidadY);
+
+    rotate
+    skew
+    translate
+    scale
+*/
