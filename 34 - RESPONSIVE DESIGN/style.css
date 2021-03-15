@@ -3,16 +3,22 @@ body{
 }
 
 div{
-    width: 100px;
+    width: 80%;
     height: 150px;
-    border: 2px solid black;
-    margin: 30px;
+    margin: 8%;
+    background-color: white;
+    display: inline-block;
 }
 
 @media screen and (min-width: 480px){
 
     body{
         background-color: green;
+    }
+
+    div{
+        width: 40%;
+        margin: 4%;
     }
 
 }
@@ -29,6 +35,11 @@ div{
     
     body{
         background-color: red;;
+    }
+
+    div{
+        width: 28%;
+        margin: 2%;
     }
 
 }
